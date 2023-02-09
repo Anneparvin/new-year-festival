@@ -109,6 +109,61 @@
 }
 /* my plans end */
 
+/* charity section start */
+/* charity section (heading) start */
+
+.charity-box{
+  text-align: center;
+  margin-top: 80px;
+}
+.charity-title{
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+.description-charity{
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+}
+.title-fund{
+  color: orangered;
+}
+/* charity section (text part) start */
+.charities{
+  display: flex;
+  margin-top: 35px;
+  padding: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.charity{
+  width: 350px;
+  height: 490px;
+  background: white;
+  box-shadow: 4px 4px 8px grey;
+  border-radius: 10px;
+}
+.charity-img{
+  width: 350px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+.charity-text{
+  padding: 15px;
+}
+.charities-title{
+  font-size:24px;
+  font-weight: bold;
+  color: rgb(54, 53, 53);
+}
+.charity-description{
+  font-size: 18px;
+  color: black;
+  margin-top: 15px;
+}
+/* charity section end */
+
 /* positive mindset start */
 .positive{
   margin-top:150px;
@@ -142,13 +197,15 @@
 /* footer start */
 .footer{
   display: flex;
-  width:90vw;
-  height: 30vh;
+  width:90%;
+  height: 50vh;
   background-color: black;
   color: antiquewhite;
   padding: 60px;
   margin-top: 50px;
   border-radius: 15px;
+  padding: 20px 40px;
+    margin-bottom: 20px;
 }
 .footer-left{
   width: 50%;
