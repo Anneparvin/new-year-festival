@@ -82,14 +82,95 @@
 
 /* my plans start */
 .plans-title{
-  justify-content: center;
+  justify-items: center;
   margin-top: 50px;
   font-size: 30px;
   font-weight: bold;
   align-items: center;
-  margin-left: 180px;
+  margin-left: 200px;
 }
 .plans{
   display: flex;
   justify-content: space-evenly;
 }
+.plan{
+  width: 30%;
+  margin-left: 100px;
+}
+
+.plan-head{
+  font-size: 35px;
+}
+.plan-para{
+  font-size: 25px;
+  font-weight: bold;
+  color: cadetblue;
+  margin-left: 15px;
+}
+/* my plans end */
+
+/* positive mindset start */
+.positive{
+  margin-top:150px;
+  width: 75%;
+  height: 300px;
+  margin: auto;
+  background-image:url("./images/watch.png"),linear-gradient(to right, red, yellow);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+.positive-title{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.positive-btn{
+  padding: 20px 50px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:orangered;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  box-shadow: 10px 10px 50px rgba(0,0,0,0.7);
+}
+/* positive mindset end */
+
+/* footer start */
+.footer{
+  display: flex;
+  width:90vw;
+  height: 30vh;
+  background-color: black;
+  color: antiquewhite;
+  padding: 60px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.footer-left{
+  width: 50%;
+  padding: 10px;
+  margin-left: 50px;
+}
+.footer-right{
+  width: 50%;
+}
+.subscribe-input{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.subscribe-btn{
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* footer end */
